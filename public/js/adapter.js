@@ -1,6 +1,6 @@
 'use strict';
 
-var RTCPeerConnection = null;
+var RTCPeerConnection = window.RTCPeerConnection || window.webkitRTCPeerConnection;
 var getUserMedia = null;
 var attachMediaStream = null;
 var reattachMediaStream = null;
