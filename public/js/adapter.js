@@ -1,8 +1,8 @@
 'use strict';
 
 
-var getUserMedia = null;
-var attachMediaStream = null;
+//var getUserMedia = null;
+//var attachMediaStream = null;
 var reattachMediaStream = null;
 var webrtcDetectedBrowser = null;
 var webrtcDetectedVersion = null;
