@@ -19,6 +19,8 @@ function trace(text) {
   }
 }
 
+console.log('navigator', navigator.mediaDevices)
+
 if (navigator.mozGetUserMedia) {
   console.log('This appears to be Firefox');
 
