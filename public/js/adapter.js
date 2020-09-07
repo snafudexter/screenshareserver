@@ -1,6 +1,6 @@
 'use strict';
 
-var RTCPeerConnection = null;
+
 var getUserMedia = null;
 var attachMediaStream = null;
 var reattachMediaStream = null;
