@@ -36,6 +36,7 @@ var PeerManager = (function () {
       }
     };
     peer.pc.onaddstream = function(event) {
+      console.log('sdf', peer.remoteVideoEl, peer)
       attachMediaStream(peer.remoteVideoEl, event.stream);
       console.log('add stream', event)
       remoteVideosContainer.appendChild(peer.remoteVideoEl);
